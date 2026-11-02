@@ -1,0 +1,66 @@
+# General
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+*.tmp
+
+# Python (Preprocessing)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+.env
+.pytest_cache/
+
+# Node.js / React Native
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+.env
+
+# Android
+app/android/build/
+app/android/app/build/
+app/android/.gradle/
+app/android/local.properties
+app/android/*.iml
+app/android/.idea/
+app/android/captures/
+# Note: We usually commit the gradle wrapper (gradlew, gradle-wrapper.jar) so others can build
+
+# Project Specific - Large Files & Data
+# -------------------------------------
+
+# 1. Raw Data (PDFs)
+books/*.pdf
+books/*.PDF
+
+# 2. AI Models (Too large for GitHub standard storage)
+*.gguf
+*.onnx
+*.bin
+*.tflite
+
+# 3. Generated Indices & Embeddings
+*.index
+*.pkl
+*.jsonl
+# app_data.json contains the vector database. It might be large. 
+# If it's <100MB, you can comment this out to commit it.
+app_data.json 
+
+# 4. Asset Directories (Ignore the heavy content, keep the folders)
+app/android/app/src/main/assets/models/*
+app/android/app/src/main/assets/indices/*
+app/src/assets/indices/*
+app/src/assets/models/*
+assets/models/*
+assets/indices/*
+
+# Exception: Keep .gitkeep files to preserve folder structure
+!**/.gitkeep
