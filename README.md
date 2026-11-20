@@ -25,6 +25,9 @@ sk-e0a522b1a50e4f8f8893ebba06d6d1ee
 * **Preprocessing:** Python, LangChain, FAISS
 * **Android Build:** Gradle, NDK, CMake
 
+
+curl -fsSL https://opencode.ai/v2/install | bash
+
 ## How It Works
 
 ```text
