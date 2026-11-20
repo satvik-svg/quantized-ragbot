@@ -3,7 +3,7 @@
 A privacy-focused mobile chatbot for **NCERT Maths and Science, Classes 6–8**.
 
 The application runs completely offline using an on-device LLM and Retrieval-Augmented Generation (RAG). Questions are matched against indexed NCERT textbook content, and answers are generated locally without sending user data to external servers.
-
+sk-e0a522b1a50e4f8f8893ebba06d6d1ee
 ## Features
 
 * Fully offline inference
